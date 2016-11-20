@@ -1,10 +1,23 @@
 var path = require('path')
 
+var ROOT_PATH = path.resolve(__dirname);
+var APP_PATH = path.resolve(ROOT_PATH, 'app');
+var BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
+
+
 module.exports = {
-	entry : path.resolve(__dirname,'app/app.js'),
-	output : {
-		path : path.resolve(__dirname,'build'),
-		filename : 'bundle.js'
+	entry : {
+    	app: APP_PATH + '/app.js',
+    	moment: APP_PATH + '/moment.js',
+    	reactDayPickerSimpleCalendar: APP_PATH + '/reactDayPicker/SimpleCalendar.js',
+    	selectTableDay: APP_PATH + '/reactDayPicker/SelectableDay.js',
+    	disabledDays: APP_PATH + '/reactDayPicker/DisabledDays.js',
+    	inputField: APP_PATH + '/reactDayPicker/InputField.js'
+	},
+	output: {
+	    path: BUILD_PATH + '/js',
+	    filename: '[name].js',
+	    chunkFilename: "[id].js"
 	},
 	module : {
 		loaders : [

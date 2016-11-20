@@ -12,7 +12,11 @@ module.exports = {
     	reactDayPickerSimpleCalendar: APP_PATH + '/reactDayPicker/SimpleCalendar.js',
     	selectTableDay: APP_PATH + '/reactDayPicker/SelectableDay.js',
     	disabledDays: APP_PATH + '/reactDayPicker/DisabledDays.js',
-    	inputField: APP_PATH + '/reactDayPicker/InputField.js'
+    	inputField: APP_PATH + '/reactDayPicker/InputField.js',
+    	fixedNumberWeeks: APP_PATH + '/reactDayPicker/fixedNumberWeeks.js',
+    	rangeOfDaysClick: APP_PATH + '/reactDayPicker/rangeOfDaysClick.js',
+    	rangeDaysMouseEnter: APP_PATH + '/reactDayPicker/rangeDaysMouseEnter.js',
+    	inputFieldWithOverlay: APP_PATH + '/reactDayPicker/inputFieldWithOverlay.js'
 	},
 	output: {
 	    path: BUILD_PATH + '/js',

@@ -8,7 +8,9 @@ var BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
 module.exports = {
 	entry : {
     	app: APP_PATH + '/app.js',
+    	mixin: APP_PATH + '/mixin.js',
     	moment: APP_PATH + '/moment.js',
+    	input: APP_PATH + '/input.js',
     	reactDayPickerSimpleCalendar: APP_PATH + '/reactDayPicker/SimpleCalendar.js',
     	selectTableDay: APP_PATH + '/reactDayPicker/SelectableDay.js',
     	disabledDays: APP_PATH + '/reactDayPicker/DisabledDays.js',

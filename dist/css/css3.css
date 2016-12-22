@@ -1,2 +1,17 @@
-.apple {
-  color: red; }
+div.container {
+  width: 620px;
+  height: 100px;
+  border: 1em solid yellow; }
+
+div.box {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  width: 300px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid red;
+  float: left; }

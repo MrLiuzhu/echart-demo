@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import DayPicker, { DateUtils } from 'react-day-picker';
 
 import 'react-day-picker/lib/style.css';
-import '../../styles/range.css';
+import '../../css/range.css';
 
 export default class RangeAdvanced extends React.Component {
   constructor(props) {

@@ -12,12 +12,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "jquery": "^3.1.1",
     "moment": "^2.16.0",
     "react": "^15.3.2",
     "react-day-picker": "^3.1.1",
     "react-dom": "^15.3.2",
+    "react-quill": "^0.4.1",
     "webpack": "^1.13.3"
   },
   "devDependencies": {

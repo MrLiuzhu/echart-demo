@@ -22,7 +22,9 @@ module.exports = {
     	rangeOfDaysClick: APP_PATH + '/js/reactDayPicker/rangeOfDaysClick.js',
     	rangeDaysMouseEnter: APP_PATH + '/js/reactDayPicker/rangeDaysMouseEnter.js',
     	inputFieldWithOverlay: APP_PATH + '/js/reactDayPicker/inputFieldWithOverlay.js',
-    	css3: APP_PATH + '/js/css3.js'
+    	css3: APP_PATH + '/js/css3.js',
+    	test: APP_PATH + '/js/test.js',
+    	reactQuill: APP_PATH + '/js/reactQuill.js'
 	},
 	output: {
 	    path: BUILD_PATH + '/js',

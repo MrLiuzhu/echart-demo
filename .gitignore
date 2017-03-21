@@ -1,2 +1,12 @@
 node_modules
-dist
+dist/
+
+## .gitignore for intellij
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+
